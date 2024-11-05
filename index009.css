@@ -1,0 +1,492 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+} 
+header{
+    height: 4rem;
+    filter: drop-shadow(0 1mm 4mm #d9b70d);
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5rem;
+    margin-top: 2rem;
+    margin-bottom:1rem ;
+}
+#bg-img{
+    height: 25rem;
+    width: 25rem;
+    object-fit: cover;
+    position: relative;
+    border-radius: 50%;
+    top: 5rem;
+    left: 30rem;
+    filter: drop-shadow(0 1mm 4mm rgb(111, 78, 55));
+}
+.navbar{
+float: right;
+position: relative;
+top: -3.2rem;
+left: -4rem;
+font-size: 15px;
+}
+#a1{
+    width: max-content;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-family: cursive;
+    color: rgb(255, 254, 254);
+    filter: drop-shadow(0 1mm 4mm rgb(0, 0, 0));
+}
+#a2{
+    width: max-content;
+    position: relative;
+    left: 3.4rem;
+    bottom: 1.5rem;
+    font-family: fantasy;
+    filter: drop-shadow(0 5mm 6mm rgb(239, 239, 239));
+    color: rgb(36, 34, 34);
+
+}
+#nav1{
+    margin-right: 4rem;
+    text-decoration: none;
+    color: rgb(37, 67, 54);
+    border-right: 0.2rem solid;
+    padding: 0.5rem;
+}
+#nav1:hover{
+    background-color: rgb(243, 243, 240);
+    transition: all 0.8s ease;
+    filter: drop-shadow(0 5mm 6mm rgb(239, 239, 239));
+}
+#nav2{
+    margin-right: 4rem ;
+    text-decoration: none;
+    color:rgb(37, 67, 54);
+    border-right: 0.2rem solid;
+    padding: 0.5rem;
+}
+#nav2:hover{
+    background-color: wheat;
+    transition: all 0.8s ease;
+}
+#nav3{
+    margin-right: 4rem ;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    border-right: 0.2rem solid;
+    padding: 0.5rem;
+}
+#nav3:hover{
+    background-color: wheat;
+    transition: all 0.8s ease;
+}
+#nav5{
+    margin-right: 4rem ;
+    text-decoration: none;
+    color:rgb(1, 1, 1);
+    border-right: 0.2rem solid;
+    padding: 0.5rem;
+}
+#nav5:hover{
+    background-color: rgb(246, 246, 246);
+    transition: all 0.8s ease;
+    filter: drop-shadow(0 5mm 6mm rgb(239, 239, 239));
+}
+#headbar {
+    background-color: rgb(245, 245, 245);
+    height: 40rem;
+    text-align: center;
+    filter: drop-shadow(0 1mm 2mm rgb(252, 253, 253));
+    width: 100%;
+}
+#myname{
+    position: relative;
+    top: 15rem;
+    left: -2rem;
+    font-family: monospace;
+    letter-spacing: 9px;
+    color: rgb(61, 68, 65);
+}
+#mycollege{
+    position: relative;
+    top: 16rem;
+    left: -2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 15px;
+    color: rgb(9, 9, 9);
+    font-size: larger;
+}
+#myimg{
+    position: relative;
+    top:3.2rem ;
+    left: 10rem;
+    background-blend-mode: overlay;
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#linkdin{
+    position: relative;
+    height: 1.4rem;
+    width: 1.4rem;
+    border-radius: 50%;
+    margin-right: 20px;
+    left: -14rem;
+    top: 10rem;
+}
+#github{
+    position: relative;
+    height: 1.4rem;
+    width: 1.4rem;
+    border-radius: 50%;
+    left: -15rem;
+    top: 10rem;
+}
+#insta{
+    position: relative;
+    height: 1.4rem;
+    width: 1.4rem;
+    border-radius: 30%;
+    left: -14rem;
+    top: 10rem;
+}
+main{
+    background-color: rgb(246, 230, 203);
+}
+.about{
+    width: 14rem;
+    position: relative;
+    left: 54rem;
+    top: -36rem;
+    transition: all 1s ease-in;
+}
+.img02{
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    position: relative;
+    left: -45rem;
+    top: 34rem;
+    border-radius: 10%;
+    filter: drop-shadow(0 1mm 2mm rgb(0, 0, 0));
+}
+#img00{
+    height: 29rem;
+    width: 13rem;
+    object-fit: fill;
+    position: relative;
+    top: 75rem;
+    left: 60rem;
+    border-radius: 10px;
+    filter: drop-shadow(0 1mm 2mm rgb(119, 117, 117));
+}
+#img00:hover{
+    filter: drop-shadow(0 1mm 2mm rgb(0, 0, 0));
+}
+#text-01{
+    position: relative;
+    left: -21rem;
+    top: -2rem;
+    background-color: rgb(245, 245, 245);
+    width: max-content;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    filter: drop-shadow(0 1mm 2mm rgb(107, 138, 122));
+    font-family: monospace;
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+#text3{
+    font-family: cursive;
+    background-color: rgb(107, 138, 122);
+    filter: drop-shadow(0 1mm 2mm #5a9f7b);
+    height: max-content;
+    letter-spacing: 7px;
+    position: relative;
+    left: 40rem ;
+    top: 7rem;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+#para1{
+    position: relative;
+    left: -10rem;
+    top: 10rem;
+    margin-top: 2rem;
+    width: 35rem;
+    line-height: 30px;
+    color: rgb(111, 78, 55);
+    filter: drop-shadow(0 1mm 2mm rgb(141, 138, 138));
+}
+.img003{
+    position: relative;
+    left: 24rem;
+    top: 1.3rem;
+    height: 10rem;
+    width: 10rem;
+}
+#para2{
+    position: relative;
+    top: 30rem;
+    left: -45rem;
+    width: 36rem;
+    margin-top: 2rem;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    filter: drop-shadow(0 1mm 2mm rgb(119, 117, 117));
+    line-height: 30px;
+}
+.img004{
+    height: 13rem;
+    width: 13rem;
+    position: relative;
+    left: -53rem;
+    top: -2rem;
+    opacity: 0.3;
+}
+.img006{
+    height: 11rem;
+    width: 11rem;
+    position: relative;
+    left: -16rem;
+    top: 10rem;
+    opacity: 0.3;
+}
+.main002{
+    background-color: rgb(165, 182, 141);
+    filter: drop-shadow(0 1mm 2mm rgb(203, 229, 233));
+    height: 50rem ;
+}
+#img008{
+    height: 8rem;
+    width: 5rem;
+    object-fit: cover;
+    position: relative;
+    top: -37rem;
+    left: 4rem;
+}
+#img005{
+    filter: drop-shadow(0 1mm 2mm rgb(71, 70, 68));
+    position: relative;
+    top: -3rem;
+    left: 3rem;
+    border-radius: 1rem;
+}
+#para3{
+    position: relative;
+    left: 45rem;
+    top: -28rem;
+    width: 34rem;
+    line-height: 30px;
+}
+#img009{
+    height: 15rem;
+    width: 10rem;
+    object-fit: cover;
+    position: relative;
+    top: -35rem;
+    left: 77rem;
+    opacity: 0.8;
+    filter: drop-shadow(0 1mm 2mm rgb(100, 100, 96));
+}
+.main00{
+    height: 55rem;
+    filter: drop-shadow(0 1mm 2mm rgb(202, 248, 227));
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+#acd_logo{
+    height: 5rem;
+    width: 18rem;
+    object-fit: cover;
+    position: relative;
+    top: -6rem;
+    left: 35rem;
+    filter: drop-shadow(0 1mm 4mm rgb(111, 78, 55));
+}
+#skills11{
+    height: 16rem;
+    width: 16rem;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    top: 23rem;
+    left: 18rem;
+    filter: drop-shadow(0 1mm 4mm rgb(255, 255, 255));
+}
+#fcd_logo{
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    position: relative;
+    top: 14rem;
+    left: -21rem;
+    filter: drop-shadow(0 1mm 4mm rgb(111, 78, 55));
+}
+#c_logo{
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    position: relative;
+    top: 34rem;
+    right: -18rem;
+    filter: drop-shadow(0 1mm 4mm rgb(111, 78, 55));
+}
+#matlab_logo{
+    height: 10rem;
+    width: 20rem;
+    object-fit: cover;
+    position: relative;
+    top: 12rem;
+    right: -9rem;
+    filter: drop-shadow(0 1mm 4mm rgb(111, 78, 55));
+}
+#js_logo{
+    height: 8rem;
+    width: 8rem;
+    object-fit: cover;
+    position: relative;
+    top: 34rem;
+    left: -55rem;
+    filter: drop-shadow(0 1mm 4mm rgb(111, 78, 55));
+}
+.main003{
+    background: linear-gradient(to left, rgb(100, 130, 173),rgb(169, 200, 244), rgb(207, 223, 247) 75%, rgb(127, 161, 195) 75%);
+}
+#autocad{
+    position: relative;
+    left: 33rem;
+    top: 8rem;
+    width: max-content;
+    color: rgb(57, 104, 233);
+    background-color: azure;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    filter: drop-shadow(0 1mm 2mm rgb(107, 138, 122));
+    font-family: monospace;
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+#cad{
+    color: rgb(255, 106, 106);
+}
+#acd1{
+    height: 16rem;
+    width: 22rem;
+    object-fit: cover;
+    position: relative;
+    top: 18rem;
+    left: 7rem;
+}
+#text4{
+    width: 22rem;
+    background-color: aqua;
+    position: relative;
+    top: 16.1rem;
+    left: 7rem;
+    line-height: 28px;
+    text-align: center;
+}
+#acd2{
+    height: 15.6rem;
+    width: 22rem;
+    object-fit: cover;
+    position: relative;
+    left: 35rem;
+}
+#text5{
+    width: 22rem;
+    background-color: aqua;
+    position: relative;
+    top: -1.4rem;
+    left: 35rem;
+    line-height: 28px;
+    text-align: center;
+}
+#acd3{
+    height: 15.6rem;
+    width: 22rem;
+    object-fit: cover;
+    position: relative;
+    top: -17.6rem;
+    left: 63rem;
+}
+#text6{
+    width: 22rem;
+    background-color: aqua;
+    position: relative;
+    top: -19rem;
+    left: 63rem;
+    line-height: 28px;
+    text-align: center;
+}
+.main004{
+    background: linear-gradient(to left, rgb(100, 130, 173),rgb(169, 200, 244), rgb(207, 223, 247) 75%, rgb(127, 161, 195) 75%);
+}
+#freecad{
+    width: max-content;
+    color: rgb(57, 104, 233);
+    background-color: azure;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    filter: drop-shadow(0 1mm 2mm rgb(107, 138, 122));
+    font-size: 2rem;
+    border-radius: 2rem;
+    position: relative;
+    left: 33rem;
+    top: 3rem;
+}
+.main006{
+    background: linear-gradient(to left, rgb(100, 130, 173),rgb(169, 200, 244), rgb(207, 223, 247) 75%, rgb(127, 161, 195) 75%);
+}
+#c_prog{
+    position: relative;
+    left: 29rem;
+    top: 4rem;
+    width: max-content;
+    color: rgb(42, 44, 50);
+    background-color: azure;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    filter: drop-shadow(0 1mm 2mm rgb(107, 138, 122));
+    font-family: monospace;
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+.fott{
+    background-color: whitesmoke;
+    filter: drop-shadow(0 1mm 5mm rgb(152, 154, 154));
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+#logo{
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    position: relative;
+    left: 3rem;
+    top: 0.4rem;
+}
+#text7{
+    position: relative;
+    left: -33rem;
+    top: 2rem;
+}
